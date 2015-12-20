@@ -6,7 +6,6 @@ output: html_document
 
 ### **Loading and preprocessing the data**  
 ```{r echo=TRUE}
-setwd("/home/thodoris/Courses/DataScience/Reproducible_Research/week-2/project/RepData_PeerAssessment1/")
 df <- read.csv("./activity.csv", header=TRUE, stringsAsFactors=TRUE)
 ```
   
